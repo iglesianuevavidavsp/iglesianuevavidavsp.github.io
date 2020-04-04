@@ -1,8 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Una señal para la familia`,
+    description: `Programa de radio de la Iglesia Evangélica Bautista "Nueva Vida"`,
+    author: `@carlos`,
+    radioStreamUrl: `https://freeus3.listen2myradio.com/live.mp3?typeportmount=s1_18133_stream/;stream.mp3`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
