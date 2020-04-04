@@ -3,7 +3,7 @@ module.exports = {
     title: `Una señal para la familia`,
     description: `Programa de radio de la Iglesia Evangélica Bautista "Nueva Vida"`,
     author: `@carlos`,
-    radioStreamUrl: `https://freeus3.listen2myradio.com/live.mp3?typeportmount=s1_18133_stream/;stream.mp3`,
+    radioStreamUrl: `https://freeus3.listen2myradio.com/live.mp3?typeportmount=s1_18133_stream`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

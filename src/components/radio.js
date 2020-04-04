@@ -14,11 +14,13 @@ const Radio = () => {
     `
   )
 
+  const cb = new Date().getTime();
+
   return (
     <div>
       <audio controls={true} preload={"none"}>
         <source
-          src={site.siteMetadata.radioStreamUrl}
+          src={`${site.siteMetadata.radioStreamUrl}&cb=${cb}/;stream.mp3`}
           type={"audio/mp3"}
         />
         Your browser does not support the audio element.

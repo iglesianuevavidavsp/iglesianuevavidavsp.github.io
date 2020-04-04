@@ -9,7 +9,8 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <Logotipo />
-    <p style={{font: `italic normal normal 0.875em Georgia, serif`}}>Programa de Radio Cristiana de la Iglesia Evangélica Bautista "Nueva Vida"</p>
+    <p style={{font: `italic normal normal 0.875em Georgia, serif`}}>Programa de Radio Cristiana de la Iglesia
+      Evangélica Bautista "Nueva Vida"</p>
     <Radio/>
 
     <h3>Programación</h3>
